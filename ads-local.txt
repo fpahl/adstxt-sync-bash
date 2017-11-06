@@ -1,0 +1,2 @@
+# ads.txt LOCAL
+ssp-xy.com, 1, DIRECT, 0815
