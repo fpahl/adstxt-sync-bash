@@ -2,6 +2,12 @@
 
 > Merge [ads.txt](https://iabtechlab.com/ads-txt/) entries from trusted sources.
 
+## Requirements
+
+- `wget` or `curl` to download external files
+- `mktemp` to create temporary files
+- a cron daemon to schedule the sync periodically
+
 ## Configuration
 
 Edit SOURCES and ADSTXT in [adstxt-sync.bash](adstxt-sync.bash):
