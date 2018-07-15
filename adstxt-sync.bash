@@ -1,10 +1,10 @@
 #!/bin/bash
 
 SOURCES=(
-    "ads-local.txt"
-    "https://tag.md-nx.com/config/site/<siteid>/ads.txt"
+    "/opt/adstxt-sync-bash/ads-local.txt"
+    "https://tag.md-nx.com/config/site/8aae9f0c-34ca-4b18-856c-d7bae02bc257/ads.txt"
 )
-ADSTXT="ads.txt"
+ADSTXT="/opt/drupal/ads.txt"
 
 LINES=()
 for ix in ${!SOURCES[*]}; do
